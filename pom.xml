@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>ru.netology</groupId>
-    <artifactId>statistics</artifactId>
+    <artifactId>SpotBugs</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -39,7 +39,7 @@
                 </dependencies>
                 <executions>
                     <execution>
-                        <id>check</id>
+                        <id>verify</id>
                         <phase>verify</phase>
                         <goals>
                             <goal>check</goal>
